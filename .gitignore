@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# User-generated app state, model files, uploads, and evidence
+forestproof_outputs/
+*.joblib
+*.tif
+*.tiff
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
